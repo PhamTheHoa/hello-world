@@ -116,6 +116,9 @@ Bank* CreatBank::Create(string BankName)
 	if (BankName == "VietComBank") {
 		bank = new VCB();
 	}
+	if (BankName == "AriBank") {
+		bank = new VCB();
+	}
 	return bank;
 }
 
