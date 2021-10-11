@@ -29,6 +29,14 @@ public:
 	virtual bool CheckAccount(string ID, string Pass, string Date);
 };
 
+class AB :public Bank {
+private:
+	string file = "AB.txt";
+public:
+	AB();
+	virtual bool CheckAccount(string ID, string Pass, string Date);
+};
+
 class CreatBank {
 public:
 	static Bank* Create(string BankName);

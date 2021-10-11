@@ -64,7 +64,8 @@ int Bank::ViewListBank()
 {
 	cout << "LIST BANK"<<endl;
 	cout << "1.VietComBank" << endl;
-	return 1;//them thi return ve so ngan hang
+	cout << "2.AriBank" << endl;
+	return 2;//them thi return ve so ngan hang
 }
 
 string Bank::SelectBank(int n)
@@ -88,6 +89,7 @@ string Bank::SelectBank(int n)
 VCB::VCB()
 {
 }
+
 
 bool VCB::CheckAccount(string ID, string Pass, string Date)
 {
@@ -141,4 +143,13 @@ void AccountZale::AddBank()
 	else {
 		cout << "ACCOUNT NOT EXIST !!!" << endl;
 	}
+}
+
+AB::AB()
+{
+}
+
+bool AB::CheckAccount(string ID, string Pass, string Date)
+{
+	return false;
 }
