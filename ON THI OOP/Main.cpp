@@ -6,5 +6,10 @@ int main() {
 	T_Hoa->ID = "Bobo0103";
 	T_Hoa->Pass = "bobo";
 	T_Hoa->AddBank();
+
+	AccountZale* _Hoa = new AccountZale();
+	_Hoa->ID = "Bbo0103";
+	_Hoa->Pass = "bbo";
+	_Hoa->AddBank();
 	return 0;
 }
