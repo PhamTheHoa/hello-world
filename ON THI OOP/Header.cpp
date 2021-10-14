@@ -2,8 +2,9 @@
 
 list<string> Files::ReadFile(string FileName)
 {
-	//test
-
+	//test 
+	//
+	 
 	list<string> lines;
 	string line="";
 	fstream f;
